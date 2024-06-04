@@ -1,17 +1,13 @@
 /* eslint-disable no-console */
-import { Box, Link, Stack, Text } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
-import { GoRepoForked, GoStar } from "react-icons/go";
+import { Box, Text } from "@chakra-ui/react";
+import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 
 import links from "../data/footerLinks";
 import LinkIconBar from "./LinkIconBar";
 
-const GITHUB_URL = "https://github.com/jcserv/portfolio";
 
 export default function Footer() {
-  const [forks, setForks] = useState(0);
-  const [stars, setStars] = useState(0);
 
   // useEffect(() => {
   //   fetch("https://api.github.com/repos/jcserv/portfolio")

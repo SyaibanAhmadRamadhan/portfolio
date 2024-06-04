@@ -31,7 +31,6 @@ const SiteHead = ({ title }) => (
     />
     <meta property="og:image" content="/logo512.png" />
     <meta property="twitter:card" content="summary_large_image" />
-    {/*<meta property="twitter:url" content="http://www.jarrodservilla.com/" />*/}
     <meta
       property="twitter:title"
       content="Syaiban Ahmad Ramadhan - Software Engineer"
