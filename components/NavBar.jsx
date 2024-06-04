@@ -30,7 +30,7 @@ const navBtns = [
         label: "Experience",
     },
     {
-        label: "Skill Set",
+        label: "Skills",
     },
     {
         label: "Projects",
