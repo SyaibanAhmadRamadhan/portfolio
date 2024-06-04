@@ -6,9 +6,9 @@ import SectionContainer from "../SectionContainer";
 export default function MoreProjects() {
   return (
     <SectionContainer
-      id="more-projects"
-      name="more-projects"
-      headerText="More Projects"
+      id="projects"
+      name="projects"
+      headerText="Projects"
       useHeaderStyle
     >
       <MoreProjectsGrid />

@@ -7,16 +7,18 @@ import Landing from "../components/sections/Landing";
 import MoreProjects from "../components/sections/MoreProjects";
 import Projects from "../components/sections/Projects";
 import styles from "../styles/Home.module.css";
+import SkillSet from "../components/sections/SkillSet";
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Landing />
-      <About />
-      <Experience />
-      <Projects />
-      <MoreProjects />
-      <Contact />
-    </div>
-  );
+    return (
+        <div className={styles.container}>
+            <Landing/>
+            <About/>
+            <SkillSet/>
+            <Experience/>
+            {/*<Projects/>*/}
+            <MoreProjects/>
+            <Contact/>
+        </div>
+    );
 }
